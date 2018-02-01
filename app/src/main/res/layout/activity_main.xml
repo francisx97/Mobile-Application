@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unirem.unirem.MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/buttonNCI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="#000000"
+            app:srcCompat="@drawable/bannernci" />
+
+        <ImageButton
+            android:id="@+id/buttonUCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="#000000"
+            app:srcCompat="@drawable/bannerucd" />
+
+        <ImageButton
+            android:id="@+id/buttonDIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="#000000"
+            app:srcCompat="@drawable/bannerdit" />
+
+        <ImageButton
+            android:id="@+id/buttonTCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="#000000"
+            app:srcCompat="@drawable/bannertcd" />
+
+        <ImageButton
+            android:id="@+id/buttonDCU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="#000000"
+            app:srcCompat="@drawable/bannerdcu" />
+
+    </LinearLayout>
+</ScrollView>

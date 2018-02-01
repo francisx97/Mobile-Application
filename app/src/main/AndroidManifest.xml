@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unirem.unirem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Purple">
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".Nci_events_PageActivity" />
+        <activity android:name=".AddEventActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD2TfoSmA-dV1650bj3z6akN3khtQLccPs" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Ucd_events_PageActivity" />
+        <activity android:name=".Tcd_events_PageActivity" />
+        <activity android:name=".Dit_events_PageActivity" />
+        <activity android:name=".Dcu_events_PageActivity" />
+        <activity android:name=".home_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
